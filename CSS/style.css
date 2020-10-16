@@ -23,8 +23,10 @@
                         width: 90%;
                     }
                     
-                    .u-w-50 {
-                        width: 50%;
+                    @media (min-width:376px) {
+                        .u-w-50 {
+                            width: 50%;
+                        }
                     }
                     
                     @media (max-width:768px) {
@@ -133,29 +135,29 @@
                     @media (max-width:768px) {
                         .name1 {
                             font-size: 30px;
-                            top: 30%;
-                            left: 5%;
+                            top: 31%;
+                            left: 21%;
                         }
                         .name2 {
                             font-size: 30px;
-                            bottom: 50%;
-                            right: 4%;
-                        }
-                    }
-                    
-                    @media (max-width:375px) {
-                        .name1 {
-                            font-size: 25px;
-                            top: 33%;
-                            left: 23%;
-                        }
-                        .name2 {
-                            font-size: 25px;
                             bottom: 53%;
                             right: 23%;
                         }
+                    }
+                    
+                    @media (max-width:376px) {
+                        .name1 {
+                            font-size: 25px;
+                            top: 27%;
+                            left: 20%;
+                        }
+                        .name2 {
+                            font-size: 25px;
+                            bottom: 64%;
+                            right: 21%;
+                        }
                         .u-w-50 {
-                            width: 70%;
+                            width: 75%;
                         }
                         .graphic_002 {
                             left: -5%;
@@ -167,7 +169,7 @@
                         }
                         .graphic_004 {
                             top: 64%;
-                            right: 3%;
+                            right: 0%;
                         }
                         .graphic_005 {
                             top: 43%;
@@ -183,7 +185,7 @@
                         }
                         .graphic_007 {
                             bottom: 33%;
-                            right: 11%;
+                            right: 8%;
                             height: 5%;
                         }
                     }
