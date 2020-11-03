@@ -11,6 +11,10 @@
                         max-width: 530px;
                     }
                     
+                    .image {
+                        text-decoration: none !important;
+                    }
+                    
                     .u-pl-1 {
                         padding-left: 1px;
                     }
